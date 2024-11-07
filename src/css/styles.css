@@ -102,17 +102,18 @@ img {
 }
 
 .gallery-item {
+  border-radius: 8px;
   border: 2px solid grey;
   width: calc((100% - 70px) / 5);
   transition: transform 0.3s, box-shadow 0.3s;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 3px 9px rgba(46, 47, 66, 0.08),
+    0px 2px 4px rgba(46, 47, 66, 0.16), 0px 4px 3px rgba(46, 47, 66, 0.08);
 }
 
 .gallery-item:hover {
   transform: scale(1.1);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  border: 2px solid grey;
+  border: 3px solid grey;
 }
 
 .wrapp-items {
